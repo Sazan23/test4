@@ -1,0 +1,53 @@
+.clearfix {
+  clear: both;
+}
+
+/* доска */
+.board {
+  border: 2px solid #404040;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* поле */
+.square {
+  float: left;
+  position: relative;
+
+  /* отключить любую встроенную подсветку браузера */
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+/* белое поле */
+.white {
+  background-color: #f0d9b5;
+  color: #b58863;
+}
+
+/* чёрное поле */
+.black {
+  background-color: #b58863;
+  color: #f0d9b5;
+}
+
+/* нотация */
+.notation {
+  cursor: default;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: absolute;
+}
+.alpha {
+  bottom: 1px;
+  right: 3px;
+}
+.numeric {
+  top: 2px;
+  left: 2px;
+}
